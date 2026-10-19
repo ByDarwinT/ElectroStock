@@ -1,0 +1,107 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - heading "ElectroStock" [level=1] [ref=e4]
+    - paragraph [ref=e5]: Explore our electronics and appliances
+  - navigation "Catalog navigation" [ref=e6]:
+    - link "Products" [ref=e7] [cursor=pointer]:
+      - /url: /
+    - link "Pokémon" [ref=e8] [cursor=pointer]:
+      - /url: /pokemon.html
+  - region "Product search" [ref=e9]:
+    - generic [ref=e10]: Search products
+    - generic [ref=e11]:
+      - searchbox "Search products" [ref=e12]
+      - generic [aria-hidden] [ref=e13]: 🔍
+    - status [ref=e14]: 15 product(s) found.
+  - region "Available products" [ref=e15]:
+    - generic [ref=e16]:
+      - button "View details for Refrigerator 300L" [ref=e18] [cursor=pointer]:
+        - generic [ref=e19]:
+          - generic [ref=e20]: Refrigerators
+          - heading "Refrigerator 300L" [level=2] [ref=e21]
+          - paragraph [ref=e22]: LG
+          - paragraph [ref=e23]: $729.99
+      - button "View details for Smart TV 50 inch" [ref=e25] [cursor=pointer]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: Televisions
+          - heading "Smart TV 50 inch" [level=2] [ref=e28]
+          - paragraph [ref=e29]: Samsung
+          - paragraph [ref=e30]: $449.99
+      - button "View details for Washing Machine 18kg" [ref=e32] [cursor=pointer]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: Washing Machines
+          - heading "Washing Machine 18kg" [level=2] [ref=e35]
+          - paragraph [ref=e36]: Whirlpool
+          - paragraph [ref=e37]: $599.00
+      - button "View details for Microwave Oven 25L" [ref=e39] [cursor=pointer]:
+        - generic [ref=e40]:
+          - generic [ref=e41]: Microwaves
+          - heading "Microwave Oven 25L" [level=2] [ref=e42]
+          - paragraph [ref=e43]: Mabe
+          - paragraph [ref=e44]: $139.90
+      - button "View details for Electric Stove 4 Burners" [ref=e46] [cursor=pointer]:
+        - generic [ref=e47]:
+          - generic [ref=e48]: Stoves
+          - heading "Electric Stove 4 Burners" [level=2] [ref=e49]
+          - paragraph [ref=e50]: Indurama
+          - paragraph [ref=e51]: $359.50
+      - button "View details for Blender 1.5L" [ref=e53] [cursor=pointer]:
+        - generic [ref=e54]:
+          - generic [ref=e55]: Blenders
+          - heading "Blender 1.5L" [level=2] [ref=e56]
+          - paragraph [ref=e57]: Oster
+          - paragraph [ref=e58]: $64.99
+      - button "View details for Air Fryer 5L" [ref=e60] [cursor=pointer]:
+        - generic [ref=e61]:
+          - generic [ref=e62]: Air Fryers
+          - heading "Air Fryer 5L" [level=2] [ref=e63]
+          - paragraph [ref=e64]: Ninja
+          - paragraph [ref=e65]: $129.99
+      - button "View details for Vacuum Cleaner" [ref=e67] [cursor=pointer]:
+        - generic [ref=e68]:
+          - generic [ref=e69]: Vacuum Cleaners
+          - heading "Vacuum Cleaner" [level=2] [ref=e70]
+          - paragraph [ref=e71]: Electrolux
+          - paragraph [ref=e72]: $179.00
+      - button "View details for Coffee Maker 12 Cups" [ref=e74] [cursor=pointer]:
+        - generic [ref=e75]:
+          - generic [ref=e76]: Coffee Makers
+          - heading "Coffee Maker 12 Cups" [level=2] [ref=e77]
+          - paragraph [ref=e78]: Black+Decker
+          - paragraph [ref=e79]: $49.99
+      - button "View details for Dishwasher 12 Settings" [ref=e81] [cursor=pointer]:
+        - generic [ref=e82]:
+          - generic [ref=e83]: Dishwashers
+          - heading "Dishwasher 12 Settings" [level=2] [ref=e84]
+          - paragraph [ref=e85]: Bosch
+          - paragraph [ref=e86]: $689.00
+      - button "View details for Water Dispenser" [ref=e88] [cursor=pointer]:
+        - generic [ref=e89]:
+          - generic [ref=e90]: Water Dispensers
+          - heading "Water Dispenser" [level=2] [ref=e91]
+          - paragraph [ref=e92]: Midea
+          - paragraph [ref=e93]: $159.00
+      - button "View details for Electric Kettle 1.7L" [ref=e95] [cursor=pointer]:
+        - generic [ref=e96]:
+          - generic [ref=e97]: Kettles
+          - heading "Electric Kettle 1.7L" [level=2] [ref=e98]
+          - paragraph [ref=e99]: Hamilton Beach
+          - paragraph [ref=e100]: $34.50
+      - button "View details for Toaster 2 Slices" [ref=e102] [cursor=pointer]:
+        - generic [ref=e103]:
+          - generic [ref=e104]: Toasters
+          - heading "Toaster 2 Slices" [level=2] [ref=e105]
+          - paragraph [ref=e106]: Oster
+          - paragraph [ref=e107]: $39.90
+      - button "View details for Stand Fan 16 inch" [ref=e109] [cursor=pointer]:
+        - generic [ref=e110]:
+          - generic [ref=e111]: Fans
+          - heading "Stand Fan 16 inch" [level=2] [ref=e112]
+          - paragraph [ref=e113]: Universal
+          - paragraph [ref=e114]: $54.99
+      - button "View details for Electric Iron" [ref=e116] [cursor=pointer]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: Irons
+          - heading "Electric Iron" [level=2] [ref=e119]
+          - paragraph [ref=e120]: Philips
+          - paragraph [ref=e121]: $44.99

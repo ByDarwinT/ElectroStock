@@ -1,0 +1,11 @@
+[     390ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ http://localhost:8080/favicon.ico:0
+[  129722ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://pokeapi.co/api/v2/pokemon-species/10080/:0
+[  129722ms] [ERROR] PokéAPI detail failed: Error: Details unavailable
+    at getPokemonDetails (http://localhost:8080/js/pokemon.js:110:59)
+    at async openPokemonDetails (http://localhost:8080/js/pokemon.js:123:36) @ http://localhost:8080/js/pokemon.js:146
+[  298884ms] [ERROR] Failed to load resource: the server responded with a status of 503 (Service Unavailable) @ http://localhost:8080/api/products:0
+[  298885ms] [ERROR] Failed to load products: Error: HTTP 503
+    at loadProducts (http://localhost:8080/js/catalog.js:77:33) @ http://localhost:8080/js/catalog.js:82
+[  301931ms] [ERROR] Failed to load resource: the server responded with a status of 503 (Service Unavailable) @ https://pokeapi.co/api/v2/pokemon?limit=2000&offset=0:0
+[  301931ms] [ERROR] PokéAPI load failed: Error: HTTP 503
+    at loadPokemonIndex (http://localhost:8080/js/pokemon.js:80:33) @ http://localhost:8080/js/pokemon.js:89
