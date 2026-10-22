@@ -9,6 +9,7 @@ import uce.desarrolloweb.electrostock.Model.Product;
 import uce.desarrolloweb.electrostock.Repository.ProductRepository;
 
 @Component
+// Insert sample products only when the catalog is empty.
 public class DataLoader implements CommandLineRunner {
     private final ProductRepository repository;
 

@@ -10,6 +10,7 @@ const currency = new Intl.NumberFormat('en-US', { style: 'currency', currency: '
 let products = [];
 let searchTimer;
 
+// Create text nodes safely without injecting API values into HTML.
 function element(tag, className, value) {
     const node = document.createElement(tag);
     if (className) node.className = className;
@@ -24,6 +25,7 @@ function addDetail(label, value) {
     modalBody.append(row);
 }
 
+// Display the selected PostgreSQL product in a Bootstrap modal.
 function openDetails(product) {
     modalTitle.textContent = product.name;
     modalBody.replaceChildren();
@@ -35,6 +37,7 @@ function openDetails(product) {
     productModal.show();
 }
 
+// Filter locally and render a responsive Bootstrap grid.
 function renderProducts(term = '') {
     const query = term.trim().toLocaleLowerCase('en');
     const matches = products.filter(product =>
@@ -65,12 +68,14 @@ function renderProducts(term = '') {
     searchStatus.textContent = `${matches.length} product(s) found.`;
 }
 
-searchInput.addEventListener('input', () => {
+// jQuery listens to typing; debounce waits until the last keystroke.
+$('#searchInput').on('input', () => {
     clearTimeout(searchTimer);
     searchStatus.textContent = 'Searching 4 seconds after you stop typing...';
     searchTimer = setTimeout(() => renderProducts(searchInput.value), 4000);
 });
 
+// Fetch all products from the Spring Boot REST controller.
 async function loadProducts() {
     try {
         const response = await fetch('/api/products');

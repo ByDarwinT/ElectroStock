@@ -2,6 +2,7 @@ package uce.desarrolloweb.electrostock.Model;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
 import java.math.BigDecimal;
+// JPA maps this entity to the PostgreSQL products table.
 @Entity
 @Table(name = "products")
 public class Product {

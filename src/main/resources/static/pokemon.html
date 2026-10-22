@@ -24,6 +24,12 @@
 </div>
 <p aria-live="polite" class="form-text" id="pokemonStatus" role="status">Open this tab to load Pokémon.</p>
 </section>
+<section aria-label="Pokémon filters" class="mx-auto mb-4" style="max-width: 940px;">
+<div class="row g-3">
+<div class="col-12 col-md-6"><label for="typeFilter" class="form-label fw-semibold">Filter by type</label><select id="typeFilter" class="form-select"><option value="all">All types</option></select></div>
+<div class="col-12 col-md-6"><label for="generationFilter" class="form-label fw-semibold">Filter by generation</label><select id="generationFilter" class="form-select"><option value="all">All generations</option></select></div>
+</div><p class="form-text">Search and filters work together. Search starts 4 seconds after typing stops.</p>
+</section>
 <section aria-label="Pokémon catalog">
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="pokemonGrid"></div>
 <p class="text-center text-secondary py-5 d-none" id="pokemonEmpty">No matching Pokémon found.</p>
@@ -47,6 +53,7 @@
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<script defer="" src="/js/pokemon.js"></script>
+<script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script defer src="/js/pokemon.js"></script>
 </body>
 </html>

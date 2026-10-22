@@ -3,6 +3,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 import uce.desarrolloweb.electrostock.Model.Product;
 import uce.desarrolloweb.electrostock.Repository.ProductRepository;
+// The service separates REST requests from persistence operations.
 @Service
 public class ProductService {
     private final ProductRepository repository;
